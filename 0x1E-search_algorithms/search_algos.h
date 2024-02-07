@@ -22,14 +22,14 @@ typedef struct listint_s
 } listint_t;
 
 /**
- * struct skiplist_s - a singly_linked list with an express lane
+ * struct skiplist_s - Singly linked list with an express lane
  *
- * @n: a integer
- * @index: a index of the node in the list
- * @next: a pointer to the next node
- * @express: a pointer to the next node in the express lane
+ * @n: Integer
+ * @index: Index of the node in the list
+ * @next: Pointer to the next node
+ * @express: Pointer to the next node in the express lane
  *
- * Description: a singly_linked list node structure with an express lane
+ * Description: singly linked list node structure with an express lane
  */
 typedef struct skiplist_s
 {
